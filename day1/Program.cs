@@ -4,8 +4,6 @@ string filepath = "input.txt";
 string[] input = Parser.GetInput(filepath);
 
 int position = 50;
-int maxPos = 99;
-int minPos = 99;
 int zeroes = 0;
 
 foreach (var line in input)
